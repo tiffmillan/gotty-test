@@ -8,7 +8,7 @@ A root-vm inside Railway.app
 
 ## 💁‍♀️ How to use
 
-- just click the button below and deploy it in heroku : 
+- just click the button below and deploy it in Railway : 
 - [`Click Me!`](https://railway.app/new/template?template=https://github.com/afnan007a/Railway-Abooz)
 
 # Note
