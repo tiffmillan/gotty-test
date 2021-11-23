@@ -1,3 +1,17 @@
+# Railway-Abooz
 
+A root-vm inside Railway.app
+## ✨ Features
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/afnan007a/Railway-Abooz/)
+- root access
+- well thats it i guess?
+
+## 💁‍♀️ How to use
+
+- just click the button below and deploy it in heroku : 
+- [`Click Me!`](https://railway.app/new/template?template=https://github.com/afnan007a/Railway-Abooz)
+
+# Note
+
+- use this on your own risk because its against railway tos ( if im correct because i dont really know lol )
+
