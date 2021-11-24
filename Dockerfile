@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM debian:buster
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get upgrade -y
