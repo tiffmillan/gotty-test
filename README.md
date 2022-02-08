@@ -1,4 +1,4 @@
-# Railway-Abooz
+# Railway-Aboo
 
 A root-vm inside Railway.app
 ## ✨ Features
