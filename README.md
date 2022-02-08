@@ -13,5 +13,4 @@ A root-vm inside Railway.app
 
 # Note
 
-- use this on your own risk because its against railway tos ( if im correct because i dont really know lol )
-
+- use this on your own risk because its against railway tos 
