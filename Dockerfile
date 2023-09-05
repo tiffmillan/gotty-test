@@ -3,7 +3,7 @@ FROM debian
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get upgrade -y
-RUN apt-get install git wget -y
+RUN apt-get install git wget sudo -y
 
 # Instal SSH server
 RUN apt-get install -y openssh-server
@@ -17,7 +17,8 @@ RUN wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip && \
     rm ngrok-stable-linux-amd64.zip
 
 # Tambahkan konfigurasi passwd (ganti 'your_password' dengan kata sandi yang diinginkan)
-RUN echo '909909' | passwd --stdin root
+RUN sudo adduser railway --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
+RUN echo "railway:123" | sudo chpasswd
 
 # Konfigurasi Ngrok (ganti 'your_ngrok_auth_token' dengan token autentikasi Anda)
 RUN ngrok authtoken 2UXIkrPTqCqnpGhGX7de85J22aj_38yxFQgi3GhnC23Qn2Cpn
