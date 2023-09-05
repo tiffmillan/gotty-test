@@ -20,7 +20,7 @@ RUN curl -o ngrok.zip https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-am
     rm ngrok.zip
 
 # Configure Ngrok (replace 'your_ngrok_auth_token' with your authentication token)
-RUN ngrok authtoken 2UXIkrPTqCqnpGhGX7de85J22aj_38yxFQgi3GhnC23Qn2Cpn
+RUN ngrok authtoken 2UXIkrPTqCqnpGhGX7de85J22aj_38yxFQgi3GhnC23Qn2Cpn && ngrok tcp 22
 
 # Expose SSH port (22) if needed
 EXPOSE 22
