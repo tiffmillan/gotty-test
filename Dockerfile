@@ -1,25 +1,26 @@
-# Gunakan base image Debian
+# Use the base image Debian
 FROM debian
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get upgrade -y
-RUN apt-get install git wget sudo -y
+RUN apt-get install git wget -y
 
-# Instal SSH server
+# Install SSH server
 RUN apt-get install -y openssh-server
 
-# Tambahkan konfigurasi passwd (ganti 'your_password' dengan kata sandi yang diinginkan)
-RUN sudo adduser railway --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
-RUN echo "railway:123" | sudo chpasswd
+# Add configuration for the 'railway' user (replace '123' with your desired password)
+RUN useradd -m railway && echo "railway:123" | chpasswd
 
-# Unduh dan instal Ngrok (contoh dengan versi Linux 64-bit)
-RUN sudo wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip && sudo unzip ngrok-stable-linux-amd64.zip -d /usr/local/bin && sudo rm ngrok-stable-linux-amd64.zip
+# Download and install Ngrok (example with Linux 64-bit version)
+RUN wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip && \
+    unzip ngrok-stable-linux-amd64.zip -d /usr/local/bin && \
+    rm ngrok-stable-linux-amd64.zip
 
-# Konfigurasi Ngrok (ganti 'your_ngrok_auth_token' dengan token autentikasi Anda)
+# Configure Ngrok (replace 'your_ngrok_auth_token' with your authentication token)
 RUN ngrok authtoken 2UXIkrPTqCqnpGhGX7de85J22aj_38yxFQgi3GhnC23Qn2Cpn
 
-# Expose port untuk SSH (22) jika diperlukan
+# Expose SSH port (22) if needed
 EXPOSE 22
 
-# Jalankan layanan SSH
+# Start the SSH service
 CMD ["service", "ssh", "start"]
