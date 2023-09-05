@@ -19,7 +19,7 @@ RUN wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip && \
 RUN echo '909909' | passwd --stdin root
 
 # Konfigurasi Ngrok (ganti 'your_ngrok_auth_token' dengan token autentikasi Anda)
-RUN ngrok authtoken your_ngrok_auth_token
+RUN ngrok authtoken 2UXIkrPTqCqnpGhGX7de85J22aj_38yxFQgi3GhnC23Qn2Cpn
 
 # Jalankan perintah untuk mengatur layanan SSH dan XRDP
 RUN service ssh start && service xrdp start
