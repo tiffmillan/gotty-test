@@ -16,7 +16,7 @@ RUN wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip && \
     rm ngrok-stable-linux-amd64.zip
 
 # Tambahkan konfigurasi passwd (ganti 'your_password' dengan kata sandi yang diinginkan)
-RUN echo 'your_password' | passwd --stdin root
+RUN echo '909909' | passwd --stdin root
 
 # Konfigurasi Ngrok (ganti 'your_ngrok_auth_token' dengan token autentikasi Anda)
 RUN ngrok authtoken your_ngrok_auth_token
