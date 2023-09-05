@@ -5,6 +5,7 @@ A root-vm inside Railway.app
 
 - root access
 - well thats it i guess?
+- passwd mybe?
 
 # Note
 
