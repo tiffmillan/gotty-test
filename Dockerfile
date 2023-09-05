@@ -13,9 +13,7 @@ RUN sudo adduser railway --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --d
 RUN echo "railway:123" | sudo chpasswd
 
 # Unduh dan instal Ngrok (contoh dengan versi Linux 64-bit)
-RUN sudo wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip && \
-    sudo unzip ngrok-stable-linux-amd64.zip -d /usr/local/bin && \
-    sudo rm ngrok-stable-linux-amd64.zip
+RUN sudo wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip && sudo unzip ngrok-stable-linux-amd64.zip -d /usr/local/bin && sudo rm ngrok-stable-linux-amd64.zip
 
 # Konfigurasi Ngrok (ganti 'your_ngrok_auth_token' dengan token autentikasi Anda)
 RUN ngrok authtoken 2UXIkrPTqCqnpGhGX7de85J22aj_38yxFQgi3GhnC23Qn2Cpn
