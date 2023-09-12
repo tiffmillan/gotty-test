@@ -8,7 +8,7 @@ RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y curl
 
 # Download Gotty dari sumber resmi
-RUN curl -sSLo gotty https://github.com/yudai/gotty/releases/download/v2.0.0/gotty_linux_amd64.tar.gz
+RUN curl -sSLo gotty_linux_amd64.tar.gz https://github.com/yudai/gotty/releases/download/v2.0.0/gotty_linux_amd64.tar.gz
 
 # Ekstrak dan beri izin eksekusi pada Gotty
 RUN tar -xzvf gotty_linux_amd64.tar.gz && chmod +x gotty && mv gotty /usr/bin/
