@@ -13,8 +13,10 @@
 
 
 ```
-I made this script because I bought hosting on the railway, because I wasn't satisfied with just running nodejs for WhatsApp bot, so I made this so that my hosting was like a private VPS, don't use it wrongly, use it as best as possible, ok!, see you 
- 
+I made this script because I bought hosting on the railway,
+because I wasn't satisfied with just running nodejs for WhatsApp bot,
+so I made this so that my hosting was like a private VPS, don't use it wrongly,
+use it as best as possible, ok!, see you 
 ```
 ## FEATURE LIST 💡
 | ------------- | ------------- |
