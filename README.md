@@ -27,5 +27,4 @@ userbot = {
 * [`Afnan (Dev)`](https://github.com/afnan007a)
 * [`Npnpicy (Code)`](https://github.com/NpnpicyAvailable)
 * [`Muhammad Rasya Saputra (Suport)`](https://github.com/mrsyasptr)
-* [`Ozyy (Suport)`](https://github.com/sanzgantengz)
 * [`TukangM (Idk)`](https://github.com/TukangM)
