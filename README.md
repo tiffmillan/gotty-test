@@ -49,7 +49,7 @@ use it as best as possible, ok!, see you
 
 ## DEYPLOYMENT
 - HEROKU : [`Click Hare`](https://dashboard.heroku.com/new?template=https://github.com/NpnpicyAvailable/gotty-server)
-- OKTETO : [`Click Hare`]( )
+- OKTETO : [`Click Hare`](https://cloud.okteto.com/deploy)
 - RAILWAY : [`Click Hare`](https://railway.app/new/template?template=https://github.com/NpnpicyAvailable/gotty-server)
 
 -----------------------
