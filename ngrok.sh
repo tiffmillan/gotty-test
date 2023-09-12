@@ -10,7 +10,7 @@ sleep 5
 NGROK_TOKEN="2BfdASj8NgWJ9EUqQjYiXzUQgW1_6EA3BmKK7SuHg7BHWeBqV"
 
 # Menjalankan Ngrok dengan token yang telah disetel
-ngrok authtoken "$NGROK_TOKEN"
+./ngrok authtoken "$NGROK_TOKEN"
 
 # Mengarahkan ke Gotty
-ngrok http http://localhost:8080
+./ngrok http http://localhost:8080
