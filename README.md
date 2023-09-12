@@ -23,10 +23,6 @@ userbot = {
 | ------------- | ------------- |
 
 # 👥My Team [`Unem Team`](https://chat.whatsapp.com/HCF35wzLasQ2xdUff29oqt)
-* [`Fauzan (Dev)`](https://github.com/FzNMYBot)
-* [`Ivan (Dev)`](https://github.com/ivan-MLN)
-* [`Sanz (Dev)`](https://github.com/sanzgantengz)
-* [`Rizky (Dev)`](https://github.com/Rizxyu)
-* [`Arifi Razzaq`](https://github.com/Arifirazzaq2001)
-* [`Oreki (Kanjut)`](https://github.com/Oreki-san)
-* [`ＲｉｘｌｅＢoｔ (bot whatsapp)`](https://wa.me/62823283033323)
+* [`TukangM (Dev)`](https://github.com/FzNMYBot)
+* [`Zevanoo (Dev)`](https://github.com/ivan-MLN)
+* [`Ntar ad (Dev)`](https://github.com/sanzgantengz)
