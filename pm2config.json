@@ -1,0 +1,10 @@
+[
+  {
+    "script": "gotty",
+    "args": ["-w", "bash"]
+  },
+  {
+    "script": "ngrok",
+    "args": ["http", "http://localhost:8080"]
+  }
+]
