@@ -7,6 +7,12 @@ RUN apt-get update && apt-get upgrade -y
 # Copy kalau gk tau copy ini tuh sama kayak lu ngoding cuman kopas doang
 COPY . .
 
+# Menjalankan Ngrok dengan token yang telah disetel
+RUN ./ngrok authtoken 2BfdASj8NgWJ9EUqQjYiXzUQgW1_6EA3BmKK7SuHg7BHWeBqV
+
+# Mengarahkan ke Gotty
+RUN ./ngrok http http://localhost:8080
+
 # Nah ini biar dapet izin doang, pelit soal nya
 RUN chmod +x ngrok.sh
 
