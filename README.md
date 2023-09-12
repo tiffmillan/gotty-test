@@ -26,7 +26,7 @@ use it as best as possible, ok!, see you
 
 ## FEATURE LIST 💡
 | ------------- | ------------- |
--
+
 - Gotty
 - Web ssh
 - full access to debian/ubuntu
