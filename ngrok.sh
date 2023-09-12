@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Menjalankan Gotty dengan perintah khusus di latar belakang
-./gotty -w bash &
+# Install npm dengan opsi -y untuk menghindari konfirmasi tambahan
+apt install npm -y
 
-# Menunggu beberapa saat untuk memastikan Gotty telah dimulai (opsional)
-sleep 5
+# Menginstal PM2 secara global menggunakan npm
+npm install pm2 -g
 
-# Menjalankan Ngrok di latar belakang tanpa menunggu
-./ngrok http http://localhost:8080 &
+# Memulai proses-proses yang didefinisikan dalam berkas konfigurasi pm2.json
+pm2 start pm2.json
