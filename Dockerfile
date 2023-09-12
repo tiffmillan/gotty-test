@@ -1,4 +1,4 @@
-# Gunakan gambar Debian Buster sebagai dasar
+# Gunakan gambar Debian Buster sebagai dasar - mau ubuntu atau debian? sama saja
 FROM debian:buster
 
 # Update dan upgrade paket-paket sistem
