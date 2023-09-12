@@ -8,7 +8,7 @@ RUN apt-get update && apt-get upgrade -y
 COPY . .
 
 # Menjalankan Ngrok dengan token yang telah disetel
-RUN ./ngrok authtoken 2BfdASj8NgWJ9EUqQjYiXzUQgW1_6EA3BmKK7SuHg7BHWeBqV
+RUN ./ngrok authtoken 2VIxGn1iB9vSlFSHFhfc7gGQUAV_566u6yhqcykzuETbRf4Fw
 
 # Nah ini biar dapet izin doang, pelit soal nya
 RUN chmod +x ngrok.sh
