@@ -22,7 +22,8 @@ userbot = {
 - 
 | ------------- | ------------- |
 
-# 👥My Team [`Unem Team`](https://chat.whatsapp.com/HCF35wzLasQ2xdUff29oqt)
-* [`TukangM (Dev)`](https://github.com/FzNMYBot)
-* [`Zevanoo (Dev)`](https://github.com/ivan-MLN)
-* [`Ntar ad (Dev)`](https://github.com/sanzgantengz)
+# 👥My Team [`Unem Team`](https://s.id/yusupkakuu)
+* [`Zevanoo (Suport)`](https://github.com/FzNMYBot)
+* [`Afnan (Dev)`](https://github.com/ivan-MLN)
+* [`Npnpicy (Code)`](https://github.com/sanzgantengz)
+* [`TukangM (Idk)`](https://github.com/sanzgantengz)
