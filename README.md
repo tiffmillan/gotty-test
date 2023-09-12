@@ -42,6 +42,13 @@ use it as best as possible, ok!, see you
 
 -----------------------
 
+# NOTE
+TIDAK BOLEH MENGINSTAL CHROME ATAU CHROMIUM ( HARAP DOWNLOAD MELALUI GOTTY ATAU WGET SEBELUM INSTALASI GUI )
+- [`CHROME_AMD.DEB`]()
+- [`FIREFOX_AMD.DEB`]()
+
+-----------------------
+
 ## TUTORIAL?🙏🏻🤓
 - COMMING
 
