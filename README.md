@@ -47,6 +47,13 @@ use it as best as possible, ok!, see you
 
 -----------------------
 
+## DEYPLOYMENT
+- HEROKU : [`Click Hare`](https://dashboard.heroku.com/new?template=https://github.com/NpnpicyAvailable/gotty-server)
+- OKTETO : [`Click Hare`]( )
+- RAILWAY : [`Click Hare`]( )
+
+-----------------------
+
 # 👥My Team [`Unem Team`](https://s.id/yusupkakuu)
 * [`Zevanoo (Suport)`](https://github.com/zevanoo)
 * [`Afnan (Dev)`](https://github.com/afnan007a)
