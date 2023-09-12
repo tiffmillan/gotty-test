@@ -36,7 +36,7 @@ use it as best as possible, ok!, see you
 - vnc work
 - adduser work
 - xrdp ( comming )
-- 
+  
 | ------------- | ------------- |
 
 -----------------------
