@@ -1,0 +1,13 @@
+{
+    "name": "gotty",
+    "description": "Deploy a gotty in Heroku",
+    "keywords": [
+        "sh",
+        "Docker"
+    ],
+    "env": {},
+    "website": "https://s.id/yusupkakuu",
+    "repository": "https://github.com/NpnpicyAvailable/gotty-server",
+    "logo": " ",
+    "stack": "container"
+}
