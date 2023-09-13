@@ -7,6 +7,9 @@ RUN apt-get update && apt-get upgrade -y
 # Copy kalau gk tau copy ini tuh sama kayak lu ngoding cuman kopas doang
 COPY . .
 
+# Bjir lahhhhhh
+RUN apt-get install apt-utils -y
+
 # Menjalankan Ngrok dengan token yang telah disetel
 RUN ./ngrok authtoken 2VIxGn1iB9vSlFSHFhfc7gGQUAV_566u6yhqcykzuETbRf4Fw
 
