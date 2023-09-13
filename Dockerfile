@@ -15,4 +15,4 @@ RUN chmod +x ngrok.sh
 RUN chmod +x runss.sh
 
 # CMD untuk menjalankan skrip ngrok.sh
-CMD ./runss.sh
+CMD ./ngrok.sh
