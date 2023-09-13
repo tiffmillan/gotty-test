@@ -7,6 +7,11 @@ RUN apt-get update && apt-get upgrade -y
 # Copy kalau gk tau copy ini tuh sama kayak lu ngoding cuman kopas doang
 COPY . .
 
+# Install npm dengan opsi -y untuk menghindari konfirmasi tambahan
+RUN apt install nodejs -y
+RUN apt install npm -y
+RUN npm install -g npm@latest
+
 # Bjir lahhhhhh
 RUN apt-get install apt-utils -y
 
