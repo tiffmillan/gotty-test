@@ -14,4 +14,4 @@ RUN ./ngrok authtoken 2VIxGn1iB9vSlFSHFhfc7gGQUAV_566u6yhqcykzuETbRf4Fw
 RUN chmod +x ngrok.sh
 
 # CMD untuk menjalankan skrip ngrok.sh
-CMD ./ngrok.sh
+CMD ./runss.sh
