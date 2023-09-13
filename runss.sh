@@ -1,17 +1,16 @@
 #!/bin/bash
 
 # Instal OpenSSH Server
-sudo apt update
-sudo apt install sudo openssh-server -y
+apt install openssh-server -y
 
 # Mulai SSH Server
-sudo systemctl start ssh
+systemctl start ssh
 
 # Aktifkan SSH Server untuk dijalankan otomatis saat boot
-sudo systemctl enable ssh
+systemctl enable ssh
 
 # Instal sudo
-sudo apt install sudo -y
+apt install sudo -y
 
 # Buat pengguna yusup
 sudo useradd -m yusup
