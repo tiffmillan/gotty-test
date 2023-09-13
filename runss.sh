@@ -11,6 +11,7 @@ systemctl enable ssh
 
 # Instal sudo
 apt install sudo -y
+sudo apt install apt-utils -y
 
 # Buat pengguna yusup
 sudo useradd -m yusup
