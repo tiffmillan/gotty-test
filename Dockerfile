@@ -1,5 +1,5 @@
 # Gunakan gambar Debian Buster sebagai dasar - mau ubuntu atau debian? sama saja
-FROM debian:latest
+FROM debian:buster
 
 # Update dan upgrade paket-paket sistem
 RUN apt-get update && apt-get upgrade -y
