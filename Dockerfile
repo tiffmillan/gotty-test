@@ -7,10 +7,11 @@ RUN apt-get update && apt-get upgrade -y
 # Copy kalau gk tau copy ini tuh sama kayak lu ngoding cuman kopas doang
 COPY . .
 
-# Install npm dengan opsi -y untuk menghindari konfirmasi tambahan
-RUN apt install nodejs -y
-RUN apt install npm -y
-RUN npm install -g npm@latest
+# susah kalo ubuntu
+RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+RUN export NVM_DIR="$HOME/.nvm"
+RUN [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+RUN nvm install 18.17.0  # Atau versi Node.js yang sesuai
 
 # Bjir lahhhhhh
 RUN apt-get install apt-utils -y
