@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export DEBIAN_FRONTEND=noninteractive
+
 # Instal OpenSSH Server
 apt install openssh-server -y
 
@@ -11,10 +13,10 @@ systemctl enable ssh
 
 # Instal sudo
 apt install sudo -y
-sudo apt install apt-utils -y
+apt install apt-utils -y
 
 # Buat pengguna yusup
-sudo useradd -m yusup
+useradd -m yusup
 
 # Set kata sandi untuk pengguna yusup (909909)
 echo "yusup:909909" | sudo chpasswd
