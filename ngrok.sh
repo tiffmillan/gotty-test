@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Gitu wir
+export DEBIAN_FRONTEND=noninteractive
+
 # Install npm dengan opsi -y untuk menghindari konfirmasi tambahan
 apt install npm -y
 
