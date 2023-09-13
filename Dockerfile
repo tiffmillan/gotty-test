@@ -1,5 +1,5 @@
 # Gunakan gambar Debian Buster sebagai dasar - mau ubuntu atau debian? sama saja
-FROM ubuntu:18.04
+FROM ubuntu:latest
 
 # Update dan upgrade paket-paket sistem
 RUN apt-get update && apt-get upgrade -y
