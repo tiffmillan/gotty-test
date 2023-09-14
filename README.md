@@ -65,6 +65,7 @@ TIDAK BOLEH MENGINSTAL CHROME ATAU CHROMIUM ( HARAP DOWNLOAD MELALUI GOTTY ATAU 
 - HEROKU : [`Click Hare`](https://dashboard.heroku.com/new?template=https://github.com/NpnpicyAvailable/gotty-server)
 - OKTETO : [`Click Hare`](https://cloud.okteto.com/deploy)
 - RAILWAY : [`Click Hare`](https://railway.app/new/template?template=https://github.com/NpnpicyAvailable/gotty-server)
+- REPLIT : [`Click Hare`](https://repl.it/github/NpnpicyAvailable/gotty-server)
 
 -----------------------
 
