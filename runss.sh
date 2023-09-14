@@ -6,10 +6,7 @@ export DEBIAN_FRONTEND=noninteractive
 apt install openssh-server -y
 
 # Mulai SSH Server
-systemctl start ssh
-
-# Aktifkan SSH Server untuk dijalankan otomatis saat boot
-systemctl enable ssh
+systemctl restart ssh
 
 # Instal sudo
 apt install sudo -y
