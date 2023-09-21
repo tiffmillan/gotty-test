@@ -9,5 +9,5 @@ npm install pm2 -g
 # Memulai proses-proses yang didefinisikan dalam berkas konfigurasi pm2.json
 pm2 start pm2.json
 
-#Logss
-pm2 logs
+# Logss
+# pm2 logs | Aktifkan Jika Perlu
