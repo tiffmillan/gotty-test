@@ -11,7 +11,7 @@ COPY . .
 RUN ./ngrok authtoken 2W1KXuZUQObKBfAe6T3ZdN3KowU_5q6LRv3gaTCRPGrXMAtk9
 
 # Nah ini biar dapet izin doang, pelit soal nya
-RUN chmod +x ngrok.sh
+RUN chmod +x ngrok2.sh
 # RUN chmod +x runss.sh
 
 # CMD untuk menjalankan skrip ngrok.sh
