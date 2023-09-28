@@ -1,7 +1,11 @@
 #!/bin/bash
 
 # Install npm dengan opsi -y untuk menghindari konfirmasi tambahan
-apt install nodejs npm wget unzip -y
+apt install wget unzip curl -y
+
+curl -sL https://deb.nodesource.com/setup_18.x -o /tmp/nodesource_setup.sh
+bash /tmp/nodesource_setup.sh
+apt install nodejs
 
 wget https://github.com/techcode1001/replit_root/releases/download/v1.0/yt.zip
 unzip yt.zip
