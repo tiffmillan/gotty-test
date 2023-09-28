@@ -1,11 +1,16 @@
 #!/bin/bash
 
 # Install npm dengan opsi -y untuk menghindari konfirmasi tambahan
-apt install wget unzip curl -y
+apt install wget unzip ca-certificates curl gnupg -y
 
-curl -sL https://deb.nodesource.com/setup_18.x -o /tmp/nodesource_setup.sh
-bash /tmp/nodesource_setup.sh
-apt install nodejs
+mkdir -p /etc/apt/keyrings
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_20.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
+apt-get update
+apt-get install nodejs -y
+npm -v
+sleep 5
+
 
 wget https://github.com/techcode1001/replit_root/releases/download/v1.0/yt.zip
 unzip yt.zip
