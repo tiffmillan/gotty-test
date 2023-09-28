@@ -22,7 +22,7 @@ echo "yusup:909909" | sudo chpasswd
 sudo usermod -aG sudo yusup
 
 # Masukkan token authtoken Ngrok Anda di sini
-./ngrok authtoken 2W1tY94zfIqZ0UzbC0eSMNwXSbx_3eh28r4vGT59DoYuufbjk
+./ngrok authtoken 2W1wNHJQ11GnIP6jj5ATwvyTZk3_483CxYLcLK5vfem2j4W3g
 
 # Jalankan Ngrok untuk SSH
-./ngrok tcp 22
+nohup ./ngrok tcp 22 --log zzz.log &
