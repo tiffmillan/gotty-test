@@ -18,6 +18,7 @@ unzip yt.zip
 unzip root.zip
 tar -xvf root.tar.xz
 ./dist/proot -S . /bin/bash
+echo "$USER"
 sleep 5
 
 
@@ -26,6 +27,7 @@ npm install pm2 -g
 
 # Memulai proses-proses yang didefinisikan dalam berkas konfigurasi pm2.json
 pm2 start pm2.json
+pm2 logs
 
 # Logss
 # pm2 logs | Aktifkan Jika Perlu
